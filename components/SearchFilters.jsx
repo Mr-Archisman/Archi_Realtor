@@ -53,7 +53,7 @@ import { useRouter } from 'next/router';
 import { MdCancel } from 'react-icons/md';
 import Image from 'next/image';
 
-import { filterData, getFilterValues } from '../utils/filterData';
+import { filterData, getFilterValues } from '../utils/FilterData';
 import { baseUrl, fetchApi } from '../utils/FetchApi';
 import noresult from '../assets/images/noresult.svg';
 
